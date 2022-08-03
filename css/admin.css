@@ -1,0 +1,67 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.judul{
+    font-size: 65px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #fff;    
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover{
+    color: #34675c !important;
+}
+
+.judul .adm{
+    color: #F47C7C;
+    cursor: pointer;
+}
+
+.btn.btn-primary.btn-logout{
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    transition: 0.3s ease-in-out all;
+    transform: translateX(-3%);
+    width: 7em;
+    background: #576F72 !important;
+    background-color: #576F72 !important;
+    border-color: #576F72 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn.btn-primary.btn-logout:hover{
+    color: aquamarine !important;
+    background-color: #576F72 !important;
+    border-color: #576F72 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.dropdown-menu.show{
+    background:#000 !important;
+}
+
+.dropdown-menu.show .dropdown-item{
+    color: white !important;
+    background-color: transparent;
+}
+
+.dropdown-menu.show .dropdown-item:hover{
+    color: #34675c !important;
+}
+
+#navbarDropdown.nav-link.dropdown-toggle{
+    color:#fff;
+    font-size: 16px;
+}
+
+#navbarDropdown.nav-link.dropdown-toggle:hover{
+    background-color: transparent !important;
+    color: #34675c !important;
+}
